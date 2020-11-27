@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: white;
+}
+
+header
+{
+    font-family: "Open Sans" , sans-serif;
+    font-size: 2em;
+    background-color: #b6fac1;
+    box-shadow: 2px 2px 4px;
+    height: 5em;
+}
+header>h1
+{
+    margin-top: 0;
+    margin-left: 1em;
+    padding-top: 0.5em;
+}
+
+main
+{
+    margin: 0 0.5em;
+    background-color: rgba(222, 255, 227, 0.5);
+    box-shadow: 3px 3px 4px;
+}
+
+footer
+{
+    margin-bottom: 0;
+    height: 6em;
+    color: white;
+    background-color: #28344a;
+}

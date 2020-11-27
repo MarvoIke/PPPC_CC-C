@@ -26,6 +26,7 @@ main
     margin: 0 0.5em;
     background-color: rgba(222, 255, 227, 0.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Raleway" , sans-serif;
 }
 
 footer

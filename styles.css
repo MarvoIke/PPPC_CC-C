@@ -6,13 +6,55 @@ body
     background-color: white;
 }
 
+.img-png
+{
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img-jpeg
+{
+    width: auto;
+    height: auto;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1
+{
+    padding-bottom: 1em;
+}
+
+h2
+{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h3 , li
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+p
+{
+    margin: 0;
+}
+
 header
 {
     font-family: "Open Sans" , sans-serif;
-    font-size: 2em;
+    font-size: 1.3em;
     background-color: #b6fac1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 5em;
+    height: auto;
 }
 header>h1
 {
@@ -23,10 +65,25 @@ header>h1
 
 main
 {
-    margin: 0 0.5em;
+    margin: 0 2.5em;
     background-color: rgba(222, 255, 227, 0.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: "Raleway" , sans-serif;
+}
+main>h2 , .content
+{
+    padding: 1em;
+}
+.content-end
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.bibliography
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 footer
@@ -35,4 +92,14 @@ footer
     height: 6em;
     color: white;
     background-color: #28344a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans" , sans-serif;
+}
+.credits
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
